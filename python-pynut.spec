@@ -7,6 +7,7 @@ License:	GPLv3+
 URL:		http://www.lestat.st/informatique/projets/pynut-en
 Source0:	http://www.lestat.st/_media/informatique/projets/pynut/%{name}-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	python-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
@@ -34,4 +35,3 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc copyright README test_nut.py.gz
 %{py_platsitedir}/PyNUT.py
-
