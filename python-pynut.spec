@@ -25,8 +25,8 @@ chmod 644 *
 %install
 rm -rf %{buildroot}
 
-install -d %{buildroot}%{py_platlibdir}
-install -m0644 PyNUT.py %{buildroot}%{py_platlibdir}/
+install -d %{buildroot}%{py_puresitedir}
+install -m0644 PyNUT.py %{buildroot}%{py_puresitedir}/
 
 %clean
 rm -rf %{buildroot}
@@ -34,4 +34,4 @@ rm -rf %{buildroot}
 %files 
 %defattr(-,root,root)
 %doc copyright README test_nut.py.gz
-%{py_platlibdir}/PyNUT.py
+%{py_puresitedir}/PyNUT.py
