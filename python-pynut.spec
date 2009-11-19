@@ -1,7 +1,7 @@
 Summary:	NUT (Network UPS Tools) extension for Python
 Name:		python-pynut
 Version:	1.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		Development/Python 
 License:	GPLv3+
 URL:		http://www.lestat.st/informatique/projets/pynut-en
@@ -25,8 +25,8 @@ chmod 644 *
 %install
 rm -rf %{buildroot}
 
-install -d %{buildroot}%{py_platsitedir}
-install -m0644 PyNUT.py %{buildroot}%{py_platsitedir}/
+install -d %{buildroot}%{py_platlibdir}
+install -m0644 PyNUT.py %{buildroot}%{py_platlibdir}/
 
 %clean
 rm -rf %{buildroot}
@@ -34,4 +34,4 @@ rm -rf %{buildroot}
 %files 
 %defattr(-,root,root)
 %doc copyright README test_nut.py.gz
-%{py_platsitedir}/PyNUT.py
+%{py_platlibdir}/PyNUT.py
