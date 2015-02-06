@@ -1,7 +1,7 @@
 Summary:	NUT (Network UPS Tools) extension for Python
 Name:		python-pynut
 Version:	1.2
-Release:	1
+Release:	2
 Group:		Development/Python 
 License:	GPLv3+
 URL:		http://www.lestat.st/informatique/projets/pynut-en
