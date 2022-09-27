@@ -8,6 +8,7 @@ URL:		http://www.lestat.st/informatique/projets/pynut-en
 Source0:	https://files.pythonhosted.org/packages/source/p/pynut/pynut-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	python-devel
+BuildRequires:	python%{pyver}dist(setuptools)
 
 %description
 PyNUT is an abstraction class written in Python to access NUT (Network UPS
