@@ -4,7 +4,7 @@ Version:	1.11.2
 Release:	1
 Group:		Development/Python 
 License:	GPLv3+
-URL:		http://www.lestat.st/informatique/projets/pynut-en
+URL:		https://www.lestat.st/informatique/projets/pynut-en
 Source0:	https://files.pythonhosted.org/packages/source/p/pynut/pynut-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	python-devel
